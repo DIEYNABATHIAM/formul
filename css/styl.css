@@ -1,0 +1,58 @@
+body{
+    background-color: rgba(87, 22, 249, 0.784);
+}
+section {
+    border-radius: 10px;
+    width: 60%;
+    margin: 0 auto;
+    height: 100vh;
+    margin-top: 2em;
+    background-color: pink;   
+}
+section h5{
+    color: rgb(19, 19, 216);
+    text-align: center;
+}
+section i{
+text-align: center;
+    color: blue;
+    position: relative;
+}
+.box-pad{
+    display: flex;
+    justify-content: center;
+}
+.box-un{
+    background: #fff;
+    margin: 1em;
+    width: 200px;
+    height: 15vh;
+    text-align: center;
+    border-radius: 10px;
+}
+.box-un i{
+    margin-top: 2em;
+}
+
+@media screen and  (max-width: 425px){
+    .box-un{
+  margin-right: 1rem;
+        width: 110px !important;
+        
+    }
+    .box-pad{
+        width: 220px;
+    }
+    section{
+        height:  140vh;
+    }
+}
+@media screen and  (max-width: 768px){
+    .box-pad{
+        display: flex;
+        flex-direction: column;
+    }
+    .box-un{
+        width: 400px;
+    }
+}
